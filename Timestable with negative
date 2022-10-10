@@ -1,0 +1,10 @@
+timestable =int(input("What timestable do you want to see? "))
+multiplier =12
+if timestable <0:
+        timestable = timestable * -1
+        while multiplier >=0:
+                print(timestable, "x", multiplier, "=",timestable*multiplier)
+                multiplier = multiplier-1
+else:
+        for multiplier2 in range(0, 13):
+                print(timestable, 'x', multiplier2, " = ", timestable * multiplier2)
